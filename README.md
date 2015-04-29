@@ -38,4 +38,6 @@ N/A
 
 ## Open Issues/Bugs
 
-This program infinitly loops if the user assigns a non-integer as the time and needs to be force quit to exit. There is also a memory leak in the delete all instances code.
+1. As of yet there is no input tester to check for integer validity on expected integer inputs.
+2. minor memory leak in the deleteAllInstances meathod.
+3. current implementation of string input only allows for 1 space character.
