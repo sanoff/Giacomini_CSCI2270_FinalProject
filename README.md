@@ -6,17 +6,15 @@ This program is designed to act as a task list using a linked list as the runnin
 
 ## How to Run
 
-The user will download the zip file into their preferred folder. After unzipping the file, the user should exhibit five files in their folder: 
-  
+User can clone repo using "git clone https://github.com/suveck/Giacomini_CSCI2270_FinalProject.git" and will receive 4 files:
+
   1) README.md 
   
   2) ToDoList.cpp 
   
   3) ToDoList.h 
   
-  4) helloWorld.cpp (this file can be ignored) 
-  
-  5) main.cpp 
+  4) main.cpp 
   
 The user will open up the ToDoList.cpp, ToDoList.h, and main.cpp and compile these files pulling up the terminal. Inside the terminal, the user will notice 10 options that they can choose from. It must be noted that the list must be hand built using the first two commands. The first command will add the task to the end of the list whilst the second will place in appropriate position. After the user has created their set of tasks, they can manipulate these tasks with the other eight functions. As noted above, the user can sort their list, display the shortest or longest task, and additionally delete tasks when they have been completed. Furthermore, after each function has been executed, the user must select option three to see the present status of the list. 
 
