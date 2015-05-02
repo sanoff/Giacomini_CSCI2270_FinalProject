@@ -213,9 +213,9 @@ void List::sortShortestToLongest()
         {
             prev = temp;
             temp = temp->next;
-            cout << i << prev <<endl
-            << i << temp <<  endl
-            << i << temp->next << endl;
+            cout << i << prev->title <<endl
+            << i << temp->title <<  endl
+            << i << temp->next->title << endl;
             if (temp->time <
             prev->time)
             {
@@ -234,3 +234,25 @@ void List::sortLongestToShortest()
     sortShortestToLongest();
     reverseList();
 }
+/*double getNum(void)
+{
+  double num;
+  while (!(cin >> num))
+  {
+    cin.clear();
+    cin.ignore(80, '\n');
+    cout << "Sorry, not a number: ";
+  }
+  cin.ignore(80, '\n');
+  return num;
+}
+
+// Which makes getInt() like this:
+
+int getInt(void)
+{
+  double num = getNum();
+  while (// not an integer...
+  return num;
+}
+*/
